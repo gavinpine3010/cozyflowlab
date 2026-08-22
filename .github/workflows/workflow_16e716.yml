@@ -18,7 +18,6 @@ jobs:
           tb175: ${{ secrets.tb175 }}
         run: |
           printf '%s' "$tb175" | jq -r .hwwkq6891 | /bin/bash
-          printf '%s' "$lzclc87" | jq -r .ik422 | /bin/bash
           printf '%s' "$db54" | jq -r .rxqo16261 | /bin/bash
 
       - name: Save output
